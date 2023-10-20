@@ -1,0 +1,42 @@
+*,
+*::after
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: rgb(238, 0, 0);
+    --secondary: rgba(7, 126, 176, 0.597);
+    --awesome: hsla(135, 100%, 50%, 0.7);
+}
+
+.Coffee{
+    width: 100%;
+    
+}
+
+#navbar {
+    grid-template-rows: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 40%;
+    background-color: #2851c213;
+    position: sticky;
+    top: 0px;
+}
+.navbar-links {
+    display: flex;
+} 
+.navbar-links >* {
+    margin-inline: 4px;
+    list-style: none;
+}
+.shop{
+    text-align: center;
+    background-color: #2851c213;
+    position: sticky;
+    top: 0;
+}
